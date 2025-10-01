@@ -13,6 +13,6 @@ On dispose d’un sac pouvant contenir au maximum **W unités de poids**.
 Le but est de choisir un sous-ensemble d’objets pour **maximiser la somme des valeurs** tout en respectant la contrainte de capacité :
 
 $$
-\max_{x \in \{0,1\}^n} \; \sum_{i=1}^n v_i x_i 
+\max_{x \in \lbrace 0,1 \rbrace^n} \; \sum_{i=1}^n v_i x_i 
 \quad \text{tel que} \quad \sum_{i=1}^n w_i x_i \leq W
 $$
