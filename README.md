@@ -32,4 +32,4 @@ La fonction de valeur au temps $k \in T$ pour l'état $x \in E$ est donnée par 
 
 $$ v_n(x) = 0 \forall x \in \lbrace 0,...,W\rbrace $$ $$ v_k(x) = \sup \lbrace m_{k+1}u + v_{k+1}(x - w_{k+1}u) | u \in \lbrace 0,1\rbrace, w_{k+1}u \leq x \rbrace \quad \forall x \in E, 0 \leq k \leq n - 1 $$
 
-La valeur cherchée est celle de $v_O(W)$ . La politque optimale est $\pi_k(x) 0 \quad \text{si} \quad v_{k+1} = v_k(x) \quad \text{et} \quad 0 \quad \text\{sinon}$.
+La valeur cherchée est celle de $v_O(W)$ . La politque optimale est $\pi_k(x) = 0 \quad \text{si} \quad v_{k+1} = v_k(x) \quad \text{ou} \quad 0 \quad \text\{sinon}$.
