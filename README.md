@@ -34,7 +34,7 @@ $$
 v_k(x) =
 \begin{cases}
   0 & \text{si } k = n, \; \forall x \in \lbrace 0,\dots,W \rbrace \\[6pt]
-  \sup \Big\{ m_{k+1}u + v_{k+1}(x - w_{k+1}u) \;\big|\; u \in \lbrace 0,1 \rbrace, \; w_{k+1}u \leq x \Big\} 
+  \sup \{ m_{k+1}u + v_{k+1}(x - w_{k+1}u) \;\big|\; u \in \lbrace 0,1 \rbrace, \; w_{k+1}u \leq x \} 
   & \text{si } 0 \leq k \leq n-1, \; \forall x \in E
 \end{cases}
 $$
