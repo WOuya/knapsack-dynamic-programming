@@ -22,6 +22,6 @@ $$
 ## modélisation en programmation dynamique déterministe
 
 On dénote :
-- $T  = \lbrace 0,1,...n\rbrace $  l'ensemble de "temps"
-- $E = \lbrace 0, 1, ... W \rbrace$ l'ensemble des états
+- $T  = \lbrace 0,1,...n \rbrace$ : ensemble des "temps"
+- $E = \lbrace 0, 1, ... W \rbrace$ : ensemble des états
 - $C_{i-1} = \lbrace 0, 1 \rbrace \quad \text{si} \quad x < w_i \quad  \text{ou}  \quad \lbrace 0 \rbrace \quad \text{sinon}$ : espace d'action au temps $i-1$ pour $1 \leq i \leq n$ et $x \in E$
