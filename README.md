@@ -16,3 +16,12 @@ $$
 \max_{u \in \lbrace 0,1 \rbrace^n} \; \sum_{i=1}^n v_i u_i 
 \quad \text{tel que} \quad \sum_{i=1}^n w_i u_i \leq W
 $$
+
+
+
+## modélisation en programmation dynamique déterministe
+
+On dénote :
+- $T  = \lbrace 0,1,...n\rbrace $  l'ensemble de "temps"
+- $E = \lbrace 0, 1, ... W \rbrace$ l'ensemble des états
+- $C_{i-1} = \lbrace 0, 1 \rbrace \text{si} x < w_i \text{ou} \lbrace 0 \rbrace \text{sinon}$ espace d'action au temps $i-1$ pour $1 \leq i \leq n$ et $x \in E$
