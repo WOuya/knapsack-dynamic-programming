@@ -30,6 +30,6 @@ On dénote :
 La fonction de valeur au temps $k \in T$ pour l'état $x \in E$ est donnée par la formulation récurrente suivante:
 
 $$
-v_n(x) = 0 \forall x \in \lbrace 0,...,W\rbrace
+v_n(x) = 0 \forall x \in \lbrace 0,...,W\rbrace\\
 v_k(x) = \sup \lbrace m_{k+1}u + v_{k+1}(x - w_{k+1}u) | u \in \lbrace 0,1\rbrace, w_{k+1}u \leq x \rbrace
 $$
