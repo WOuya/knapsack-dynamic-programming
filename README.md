@@ -29,10 +29,12 @@ On dénote :
 
 La fonction de valeur au temps $k \in T$ pour l'état $x \in E$ est donnée par la formulation récurrente suivante:
 
-$$
-v_n(x) = 0 \forall x \in \lbrace 0,...,W\rbrace
-$$
 
 $$
-v_k(x) = \sup \lbrace m_{k+1}u + v_{k+1}(x - w_{k+1}u) | u \in \lbrace 0,1\rbrace, w_{k+1}u \leq x \rbrace \quad \forall x \in E, 0 \leq k \leq n - 1
+v_k(x) =
+\begin{cases}
+  0, & \forall x \in \lbrace 0, \dots, W \rbrace, \; k = n, \\[1em]
+  \sup \Big\lbrace m_{k+1}u + v_{k+1}(x - w_{k+1}u) \;\big|\; u \in \lbrace 0,1 \rbrace, \; w_{k+1}u \leq x \Big\rbrace, 
+  & \forall x \in E, \; 0 \leq k \leq n-1.
+\end{cases}
 $$
